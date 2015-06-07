@@ -21,7 +21,7 @@
         width: 100%;
       }
       
-      input[type="submit"] {
+      input[type="button"] {
         background-color: white;
         border: 1px solid #999;
         border-radius: 5px;
@@ -32,7 +32,7 @@
         width: 100%;
       }
 
-      input[type="submit"]:hover {
+      input[type="button"]:hover {
         background-color: #999;
         color: white;
         cursor: pointer;
@@ -45,13 +45,14 @@
       -
       - [1]: https://developer.chrome.com/extensions/contentSecurityPolicy
      -->
-    <script src="popup.js"></script>
+    
   </head>
   <body>
     <form action="">
       <label for="property-address"></label>
       <input id="property-address" type="text" placeholder="Property Address Goes Here">
-      <input type="submit" value="Submit">
+      <input id="address-form-submit" type="button" value="Submit">
     </form>
+    <script src="popup.js"></script>
   </body>
 </html>
