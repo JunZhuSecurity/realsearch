@@ -15,6 +15,7 @@
     "128": "icon128.png" 
   },
   "permissions": [
-    "activeTab"
+    "activeTab", 
+    "tabs", "http://*/*", "https://*/*"
   ]
 }
