@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "RealSearch",
-  "description": "This extension shows listings for a given address on Trulia, Zillow, and Realtor.com",
+  "description": "Shows listings on Trulia, Zillow, and Realtor.com for a given address ",
   "version": "1.0",
 
   "browser_action": {
