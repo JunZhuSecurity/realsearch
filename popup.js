@@ -2,6 +2,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	document.getElementById('address-form-submit').addEventListener('click', function() {
 		var propertyAddress = document.getElementById('property-address').value;
 
+        chrome.storage.local.set({'propertyAddress': propertyAddress});
+
     	chrome.tabs.create( 
     		{ url: 'http://trulia.com' }, 
     		function(tab){
